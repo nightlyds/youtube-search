@@ -1,4 +1,4 @@
-# Youtube-search :search:
+# Youtube-search :ocean:
 
 ## Installation
 
@@ -90,8 +90,12 @@ You can change server port in this way:
 ```
 
 Also if you need, you can change API key:
+
+```js
 // src/store/YoutubeApiKey.ts
+
 export const key: string = "YOUR_KEY"; // put your API key here
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
