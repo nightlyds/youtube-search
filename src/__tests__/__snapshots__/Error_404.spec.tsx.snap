@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error 404 component tests Snapshot test 1`] = `
+<div
+  className="error-404"
+>
+  <div
+    className="error-404-content"
+  >
+    <h2
+      className="error-404-title"
+    >
+      404
+    </h2>
+    <span
+      className="error-404-text"
+    >
+      Page not found!
+    </span>
+  </div>
+  <Footer />
+</div>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error component tests Snapshot test 1`] = `
+<div
+  className="error"
+>
+  <span
+    className="error-message"
+  >
+    You caught the error :(
+  </span>
+</div>
+`;
