@@ -24,7 +24,7 @@ export interface VideoDetailProps extends RouteComponentProps<RouteIDType> {
     loadVideoDetail: (id: string) => void;
     addToFavourites: (favourites: Array<string>) => void;
     favourites: Array<string>;
-    videoDetail: Array<VideosTypes>;
+    videoDetail: VideosTypes;
     loading: boolean;
     error: boolean;
 }
@@ -79,7 +79,7 @@ const VideoDetail = (props: VideoDetailProps) => {
             {loading &&
                 !error &&
                 videoDetail &&
-                videoDetail.map((item: any) => (
+                videoDetail.data.items.map((item: any) => (
                     <div
                         className="video-detail-content"
                         key={

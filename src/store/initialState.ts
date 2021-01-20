@@ -6,7 +6,7 @@ export type InitialStateTypes = {
     error: boolean;
 };
 
-localStorage.clear(); // For clear all LocalStorage
+// localStorage.clear(); // For clear all LocalStorage
 
 export const localStorageGet: Array<string> =
     JSON.parse(localStorage.getItem("favourites")!) !== null
