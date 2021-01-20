@@ -1,6 +1,4 @@
-# ALPHABET TO MORSE CODE :computer:
-
-That`s Morse code translator. You can translate English | Ukraine | Russia languages to Morse code and back. Just type words or symbols on your language into the first field and get the translation of that in the another one, also if you want type Morse code, you have to make in this way: type one Morse code charater and put on space, just like this: '.---- ..--- ...-- '. I hope you like it, have fun!
+# Youtube-search :search:
 
 ## Installation
 
@@ -66,7 +64,8 @@ yarn pretty
 1. React
     1. Redux
        1. React-Redux
-       2. Redux-logger && Redux-devtools-extension
+       2. Redux-logger & Redux-devtools-extension
+       3. Redux-saga & Redux-saga-test-plan
 2. Babel
 3. Enzyme & Jest
 4. Webpack
@@ -76,6 +75,7 @@ yarn pretty
 8. Eslint
 9. Prettier
 10. FontAwesome
+11. Axios
 
 
 ## Usage
@@ -88,6 +88,10 @@ You can change server port in this way:
     port: 8080,
   },
 ```
+
+Also if you need, you can change API key:
+// src/store/YoutubeApiKey.ts
+export const key: string = "YOUR_KEY"; // put your API key here
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
